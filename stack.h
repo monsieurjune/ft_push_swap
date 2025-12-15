@@ -6,7 +6,7 @@
 /*   By: tponutha <tponutha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 16:53:41 by tponutha          #+#    #+#             */
-/*   Updated: 2025/12/15 23:32:13 by tponutha         ###   ########.fr       */
+/*   Updated: 2025/12/16 00:44:56 by tponutha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ char	**ft_split(char const *s, char c, t_mem **spt);
 long	stack_atoi(char *str);
 
 // stack_duplicate.c
-int		*stack_isduplicate(int *arr, int size, t_mem **head);
+int		stack_isduplicate(int *arr, int size, t_mem **head);
 
 // stack_args.c
 int		*stack_check_n_return(int ac, int *len, char **av, t_mem **head);
